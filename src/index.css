@@ -1,0 +1,43 @@
+
+
+.tile {
+    border: 1px solid grey;
+    border-radius: 4px;
+    flex-grow: 1;
+    width: calc(100% * (1/4) - 10px - 1px);
+}
+
+.tile:hover {
+    background-color: lightgrey;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    flex-grow: 2;
+}
+
+.score-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.size-input {
+    height: 20%
+}
+
+.size-section {
+    display: flex;
+    flex-direction: column;
+}
